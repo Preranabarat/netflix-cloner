@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.mainNetflixContainer{
+    /* border: 2px solid red; */
+    padding: 0rem 2rem;
+    /* position: relative; */
+
+}
+.backgroundContainer{
+    background-image: url("./bennerImage.jpg");
+    filter: blur(16px);
+    height: 100vh;
+    position: relative;
+    
+}
+.pinkOverlay{
+    background-color: rgba(158, 63, 79, 0.514);
+    height: 100%;
+    width: 100%;
+}
+.contentContainer{
+    position: absolute;
+    top: 0 ;
+    background-color: rgba(0,0,0,.5);
+    padding: 0rem 2rem;
+}
+nav{
+    /* border: 2px solid green; */
+    height: 20vh;
+}
+.upperNavberSection{
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 50%;
+}
+.upperNaveLeft{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+.netflixLogo{
+    width: 27%;
+}
+.upperNavRight{
+    /* border: 2px solid green; */
+    width: 50%;
+}
+.navBarButtonContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.lgButton{
+    display: flex;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+.siButton{
+    background-color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+.lgButton p{
+    margin-left: 5px;
+}
+.lowerNavberSection{
+    /* border: 2px solid red; */
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.menuList{
+    /* border: 2px solid green; */
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    background: rgba(0,0,0,.5);
+    box-shadow:  2px 3px 14px rgba(0,0,0,.5);
+    height: 7vh;
+}
+.menuList li{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bannerSection{
+    /* border: 2px solid red; */
+    height: 90vh;
+    background-image: url("/bennerImage.jpg");
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 2rem;
+   
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.7),black);
+}
